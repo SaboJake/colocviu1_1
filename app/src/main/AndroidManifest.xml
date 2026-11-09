@@ -21,6 +21,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Coloclviu1_1SecondaryActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <service
+            android:name=".Coloclviu1_1Service"
+            android:exported="false" />
     </application>
 
 </manifest>
